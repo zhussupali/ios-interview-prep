@@ -4,6 +4,7 @@
 1. [Software Development and Process](#software-development-and-process)
     - [Architecture Knowledge](#architecture-knowledge)
         - [Object-Oriented Programming](#object-oriented-programming-oop)
+        - [Protocol-Oriented Programming](#protocol-oriented-programming-pop)
         - [SOLID Principles](#solid-principles)
         - [Architecture Patterns](#architecture-patterns)
             - [MVC, MVP and MVVM](#mvc-mvp-and-mvvm)
@@ -57,10 +58,30 @@ Key Principles of **OOP**:
 - **Polymorphism**: Using a single interface to represent different types of objects, enabling flexible and interchangeable components.
 Abstraction: Simplifying complex reality by modeling classes to focus on essential attributes and behaviors, while hiding unnecessary details.
 
+### Protocol-Oriented Programming (POP)
+
+**Protocol-Oriented Programming** is an approach that emphasizes defining protocols (interfaces) to describe shared behaviors and structures. Instead of relying solely on class inheritance, it promotes composing objects through protocol adoption, fostering code reusability and flexibility.
+
+Key Aspects:
+
+- **Protocols**: Define contracts for methods and properties that types must conform to.
+- **Composition**: Combine smaller protocols to create complex behaviors by adopting multiple protocols.
+- **Value Types**: Encourage creating value types (structs, enums) over classes for better safety and performance.
+- **Default Implementations**: Provide default method implementations within protocols for shared functionality.
+
+Benefits:
+- Improved modularity and flexibility.
+- Clearer and more focused code with smaller protocols.
+- Reduced tight coupling, allowing diverse types to interact.
+- Easier testing and more efficient memory management.
+
+***Note***: *POP complements Object-Oriented Programming and can be particularly effective in Swift due to its focus on value types and protocol extensions.*
+
 #### SOLID Principles
 
 **Single Responsbility Principle (SRP)**
 - There should never be more than one reason for a class to change
+
 *Bad examples: Apple MVC, AppDelegate...*
 
 **Open-Closed Principle (OCP)**
