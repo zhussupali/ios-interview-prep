@@ -3,7 +3,9 @@
 ## Table of Contents
 1. [Software Development and Process](#software-development-and-process)
     - [Architecture Knowledge](#architecture-knowledge)
-        - [Architecture Patterns]()
+        - [Object-Oriented Programming](#object-oriented-programming-oop)
+        - [SOLID Principles](#solid-principles)
+        - [Architecture Patterns](#architecture-patterns)
             - [MVC, MVP and MVVM](#mvc-mvp-and-mvvm)
             - [VIPER, VIP, Clean](#viper-vip-clean)
             - [Redux, Flux, The Composable Architecture (TCA)](#redux-flux-the-composable-architecture-tca)
@@ -43,6 +45,38 @@
 ## Software Development and Process
 
 ### Architecture Knowledge
+
+### Object-Oriented Programming (OOP)
+
+**OOP** is a programming paradigm that structures code around objects, which represent real-world entities. In Swift, a versatile programming language, **OOP** is a fundamental approach to building software.
+
+Key Principles of **OOP**:
+
+- **Inheritance**: Creating new classes (subclasses) based on existing classes (superclasses), inheriting their attributes and behaviors. It promotes code reuse and hierarchy.
+- **Encapsulation**: Bundling data (attributes) and methods (functions) that operate on that data into a single unit (object), which hides internal details and provides a clear interface.
+- **Polymorphism**: Using a single interface to represent different types of objects, enabling flexible and interchangeable components.
+Abstraction: Simplifying complex reality by modeling classes to focus on essential attributes and behaviors, while hiding unnecessary details.
+
+#### SOLID Principles
+
+**Single Responsbility Principle (SRP)**
+- There should never be more than one reason for a class to change
+*Bad examples: Apple MVC, AppDelegate...*
+
+**Open-Closed Principle (OCP)**
+- Software entities (classes, modules, functions, etc) should be open for extension, but closed for modification
+
+**Liskov Substitution Principle (LSP)**
+- Subtypes must be substitutable for their base types.
+
+**Interface Segregation Principle (ISP)**
+- Clients should not be forced to depend upon interfaces that they do not use
+
+**Dependency Inversion Principle (DIP)**
+- High-level modules should not depend on low-level modules. Both should depend on abstractions
+- ﻿Abstractions should not depend on details. Details should depend on abstractions.
+
+*examples: https://habr.com/ru/articles/746410/*
 
 #### Architecture Patterns
 
