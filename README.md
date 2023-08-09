@@ -3,9 +3,10 @@
 ## Table of Contents
 1. [Software Development and Process](#software-development-and-process)
     - [Architecture Knowledge](#architecture-knowledge)
-        - [MVC, MVP and MVVM](#mvc-mvp-and-mvvm)
-        - [VIPER, VIP, Clean](#viper-vip-clean)
-        - [Redux, Flux, The Composable Architecture (TCA)](#redux-flux-the-composable-architecture-tca)
+        - [Architecture Patterns]()
+            - [MVC, MVP and MVVM](#mvc-mvp-and-mvvm)
+            - [VIPER, VIP, Clean](#viper-vip-clean)
+            - [Redux, Flux, The Composable Architecture (TCA)](#redux-flux-the-composable-architecture-tca)
         - [Design Patterns](#design-patterns)
             - [Creational (Factory, Builder)](#creational-design-pattern-examples-factory-builder)
             - [Structural (Adapter, Facade)](#structural-design-pattern-examples-adapter-facade)
@@ -43,7 +44,9 @@
 
 ### Architecture Knowledge
 
-#### MVC, MVP and MVVM
+#### Architecture Patterns
+
+##### MVC, MVP and MVVM
 
 - **MVC** is a traditional pattern that focuses on separating responsibilities among the model, view, and controller. 
 - **MVP** and **MVVM** are variations that put more emphasis on separating presentation logic from the view. 
@@ -59,7 +62,7 @@
 
 https://www.simform.com/blog/mvc-mvp-mvvm-ios-app-development/
 
-#### VIPER, VIP, Clean
+##### VIPER, VIP, Clean
 
 - **VIPER** *(View, Interactor, Presenter, Entity, Router)* is an architectural pattern that aims to create highly modular and decoupled code. **VIPER** enforces strict separation between components, making it easier to maintain and test each individual piece. It emphasizes loose coupling and dependency injection.
 
@@ -77,13 +80,33 @@ https://www.simform.com/blog/mvc-mvp-mvvm-ios-app-development/
 
 https://www.youtube.com/watch?v=Szlgqnk6gHg
 
-#### Redux, Flux, The Composable Architecture (TCA)
+##### Redux, Flux, The Composable Architecture (TCA)
 
 ![Redux, Flux, The Composable Architecture (TCA)](Figures/figure3.jpeg)
 
 #### Design Patterns
 
-![Design Patterns](Figures/figure4.jpeg)
+**Design patterns** are reusable code patterns that provide solutions to common software design problems. They can be applied within principles like OOP and SOLID principles to create well-structured and maintainable software.
+1. Creational patterns
+    - Factory Method
+    - Abstract Factory
+    - Builder
+    - Prototype
+    - Singleton
+1. Structural patterns
+    - Adapter
+    - Bridge
+    - Composite
+    - Decorator
+    - Facade
+1. Behavioral patterns
+    - Chain of Responsibility
+    - Iterator
+    - Mediator
+    - Observer
+    - State
+    - Strategy
+    - Visitor
 
 https://refactoring.guru/design-patterns/catalog
 
@@ -147,7 +170,6 @@ final class BurgerBuilder {
         )
     }
 }
-
 ```
 
 ##### Structural Design Pattern Examples (Adapter, Facade)
