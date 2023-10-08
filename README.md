@@ -5,7 +5,7 @@
     - [Architecture Knowledge](Contents/Software%20Development%20and%20Process/Architecture%20Knowledge/)
         - [Object-Oriented Programming](Contents/Software%20Development%20and%20Process/Architecture%20Knowledge/ObjectOrientedProgramming.md)
         - [Protocol-Oriented Programming](Contents/Software%20Development%20and%20Process/Architecture%20Knowledge/ProtocolOrientedProgramming.md)
-        - [SOLID Principles](Contents/Software%20Development%20and%20Process/Architecture%20Knowledge/SOLID)
+        - [SOLID Principles](Contents/Software%20Development%20and%20Process/Architecture%20Knowledge/SOLID.md)
         - [Architecture Patterns](Contents/Software%20Development%20and%20Process/Architecture%20Knowledge/Architecture%20Patterns/)
             - [MVC, MVP and MVVM](Contents/Software%20Development%20and%20Process/Architecture%20Knowledge/Architecture%20Patterns/MV.md)
             - [VIPER, VIP, Clean](Contents/Software%20Development%20and%20Process/Architecture%20Knowledge/Architecture%20Patterns/VIPClean.md)
