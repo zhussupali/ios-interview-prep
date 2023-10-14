@@ -16,7 +16,7 @@
             - [Behavioral (Strategy)](Contents/Software%20Development%20and%20Process/Architecture%20Knowledge/Design%20Patterns/Behavioral.md)
     - [Code Standards / Code Review Process](Contents/Software%20Development%20and%20Process/Architecture%20Knowledge/CodeStandards&CodeReviewProcess.md)
     - [Algorithms and Data Structures](#algorithms-and-data-structures)
-    - [CI/CD (Continuous Integration/Continuous Delivery/Deployment)](Contents/Software%20Development%20and%20Process/Architecture%20Knowledge/CICD)
+    - [CI/CD (Continuous Integration/Continuous Delivery/Deployment)](Contents/Software%20Development%20and%20Process/Architecture%20Knowledge/CICD.md)
     - [Troubleshooting / Logging / Monitoring](#troubleshooting--logging--monitoring)
     - [Testing Processes](#testing-processes)
     - [Version Control System](#version-control-system)
