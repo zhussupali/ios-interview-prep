@@ -10,7 +10,7 @@
 - **MVP** focuses on the presenter as the central coordinator, while **MVVM** emphasizes the view model as the mediator between the view and the model.
 - **MVVM** leverages data binding to automate the synchronization between the view and the view model, reducing the need for explicit updates.
 
-![MVC, MVP and MVVM](/Figures/figure1.jpeg)
+![MVC, MVP and MVVM](/Figures/ArchitecturePatterns/figure1.jpeg)
 
 https://www.simform.com/blog/mvc-mvp-mvvm-ios-app-development/
 
@@ -28,10 +28,10 @@ https://www.simform.com/blog/mvc-mvp-mvvm-ios-app-development/
     - *Domain Layer*: Contains the business logic and rules of the application. It is independent of the presentation layer and any external frameworks.
     - *Data Layer*: Deals with data persistence, remote API calls, and external services. It interacts with the data sources and provides data to the domain layer.
 
-![VIPER, VIP, Clean](/Figures/figure2.png)
+![VIPER, VIP, Clean](/Figures/ArchitecturePatterns/figure2.png)
 
 https://www.youtube.com/watch?v=Szlgqnk6gHg
 
 ## Redux, Flux, The Composable Architecture (TCA)
 
-![Redux, Flux, The Composable Architecture (TCA)](/Figures/figure3.jpeg)
+![Redux, Flux, The Composable Architecture (TCA)](/Figures/ArchitecturePatterns/figure3.jpeg)
