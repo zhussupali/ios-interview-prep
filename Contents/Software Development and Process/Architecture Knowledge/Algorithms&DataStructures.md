@@ -50,7 +50,7 @@ Here is a list of classes of functions that are commonly encountered when analyz
 | O(n^2)  | quadratic  |
 | O(n^c)  | polynomial  |
 
-<img width="321" alt="Снимок экрана 2023-10-17 в 20 05 07" src="https://github.com/kdyrovadd/test/assets/103488736/05024693-6bb7-4f3a-b8ac-2ae971d93080">
+![Big O](/Figures/Algorithms&DS/figure1.png)
 
 ### Time and Space Complexity
 A function's **time complexity** measures how long it takes to execute in terms of computational steps. 
@@ -81,7 +81,7 @@ To build a recursive algorithm, you will break the given problem statement into 
 * Recursive Step: It computes the result by making recursive calls to the same function, but with the inputs decreased in size or complexity.
 
 _Difference between iteratiev and recursive method:_ 
-<img width="600" alt="Снимок экрана 2023-10-12 в 19 25 16" src="https://github.com/kdyrovadd/test/assets/103488736/f9aa870a-a381-4a5b-ad7b-75732e8a5639">
+![Aproaches](/Figures/Algorithms&DS/figure2.png)
 
 ### 3. Backtracking Algorithm:
 Backtracking can be defined as a general algorithmic technique that considers searching every possible combination in order to solve a computational problem.
@@ -94,10 +94,10 @@ Constraint: Girl should not be on the middle bench.
 **Solution**: There are a total of 3! = 6 possibilities. We will try all the possibilities and get the possible solutions. We recursively try all the possibilities.
 
 All the possibilities are:<br>
-<img width="295" alt="Снимок экрана 2023-10-12 в 20 08 35" src="https://github.com/kdyrovadd/test/assets/103488736/9ce07e10-4b56-45e7-a6c8-1260d59a3e3c">
+![Possibilities](/Figures/Algorithms&DS/figure3.png)
 
 The following [state space tree](https://www.simplilearn.com/tutorials/data-structure-tutorial/backtracking-algorithm#:~:text=State%2DSpace%20Tree,leaf%20as%20a%20terminal%20state.) shows the possible solutions.<br>
-<img width="249" alt="Снимок экрана 2023-10-12 в 20 09 59" src="https://github.com/kdyrovadd/test/assets/103488736/c40b08af-0674-4982-b337-b9f88c05c66a">
+![Tree](/Figures/Algorithms&DS/figure4.png)
 
 ### 4. Searching Algorithm:
 Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
@@ -116,7 +116,8 @@ In Linear Search Algorithm,
 * If any element is found equal to the key, the search is successful and the index of that element is returned.
 * If no element is found equal to the key, the search yields “No match found”.
 
-<img width="476" alt="Снимок экрана 2023-10-12 в 21 50 27" src="https://github.com/kdyrovadd/test/assets/103488736/4d6ecd82-a3a0-48f3-bd0c-d2a7dc87334f"><br>
+![Linear Search](/Figures/Algorithms&DS/figure5.png)
+<br>
 
 Implementation of Linear Search Algorithm(Swift):
 
@@ -163,7 +164,7 @@ In this algorithm,
    * If the key is larger than the middle element, then the right side is used for next search.
 7. This process is continued until the key is found or the total search space is exhausted.
 
-<img width="562" alt="Снимок экрана 2023-10-12 в 22 08 38" src="https://github.com/kdyrovadd/test/assets/103488736/c95e11a3-bca3-40ca-bc3c-78a80e415302">
+![Binary Search](/Figures/Algorithms&DS/figure6.png)
 
 The Binary Search Algorithm can be implemented in the following two ways
 
@@ -227,7 +228,7 @@ func recursiveBinarySearch(for value: Int, in items: [Int], left: Int, right: In
 ### 5. Sorting Algorithm:
 A Sorting Algorithm is used to rearrange a given array or list of elements according to a comparison operator on the elements. For example,
 
-<img width="442" alt="Снимок экрана 2023-10-17 в 20 43 21" src="https://github.com/kdyrovadd/test/assets/103488736/1c11a3ca-5aec-4942-9d63-d6a2d2c79de9">
+![Sorting](/Figures/Algorithms&DS/figure7.png)
 
 There are various sorting algorithms that can be used to complete this operation. And, we can use any algorithm based on the requirement.
 
@@ -246,7 +247,7 @@ Just like the movement of air bubbles in the water that rise up to the surface, 
 * Now, compare the second and the third elements. Swap them if they are not in order.
 * The above process goes on until the last element.
 
-<img width="374" alt="Снимок экрана 2023-10-17 в 20 51 41" src="https://github.com/kdyrovadd/test/assets/103488736/b72f58c6-7c39-4e7c-ad69-cc92ad356289">
+![Bubble Sort](/Figures/Algorithms&DS/figure8.png)
 
 2. Remaining Iteration
 
@@ -254,15 +255,15 @@ The same process goes on for the remaining iterations.
 
 After each iteration, the largest element among the unsorted elements is placed at the end.
 
-<img width="360" alt="Снимок экрана 2023-10-17 в 20 52 34" src="https://github.com/kdyrovadd/test/assets/103488736/3a2d8c97-ecf5-4cf1-9dc9-a6fa03c9456b">
+![Bubble Sort1](/Figures/Algorithms&DS/figure9.png)
 
 In each iteration, the comparison takes place up to the last unsorted element.
 
-<img width="359" alt="Снимок экрана 2023-10-17 в 20 52 58" src="https://github.com/kdyrovadd/test/assets/103488736/f76c3c60-df34-4399-81e3-72741ca015d9">
+![Bubble Sort2](/Figures/Algorithms&DS/figure10.png)
 
 The array is sorted when all the unsorted elements are placed at their correct positions.
 
-<img width="363" alt="Снимок экрана 2023-10-17 в 20 53 22" src="https://github.com/kdyrovadd/test/assets/103488736/cd9678ad-24e2-44a5-9444-4abd1e270aca">
+![Bubble Sort3](/Figures/Algorithms&DS/figure11.png)
 
 Implementation in Swift:
 ```swift
@@ -299,7 +300,7 @@ func mBubbleSort(_ array: inout [Int]) {
 ## What is Data Structure?
 A data structure is a storage that is used to store and organize data. It is a way of arranging data on a computer so that it can be accessed and updated efficiently.
 A data structure is not only used for organizing the data. It is also used for processing, retrieving, and storing data. There are different basic and advanced types of data structures that are used in almost every program or software system that has been developed.
-<img width="633" alt="Снимок экрана 2023-10-24 в 17 32 37" src="https://github.com/kdyrovadd/test/assets/103488736/f1f45e55-1643-4fbd-b097-130229b02211">
+![DS](/Figures/Algorithms&DS/figure12.png)
 
 Data structure where data elements are arranged sequentially or linearly where each and every element is attached to its previous and next adjacent is called a **linear data structure**.
 Its examples are array, stack, queue, linked list, etc. 
@@ -399,7 +400,8 @@ the hash table takes the key “firstName” and asks it for its hashValue prope
 When you write `"firstName".hashValue`, it returns a big integer: `-8378883973431208045`. Likewise, `"hobbies".hashValue` has the hash value `477845223140190530`.
 Hash values are calculated by a hash function, which takes some input and returns an integer:
 
-<img width="236" alt="Снимок экрана 2023-10-24 в 21 50 49" src="https://github.com/kdyrovadd/test/assets/103488736/3dc091fc-e922-4055-9a1e-4b39b143479c"><br>
+![Hash](/Figures/Algorithms&DS/figure13.png)
+<br>
 
 **Collisions**<br>
 Collision problems are a common issue when working with hash tables. A collision occurs when two or more keys are mapped to the same index in the hash table, leading to an overlap in the data stored at that index. This can cause the hash table to become inefficient and slow, as it takes longer to retrieve data from the table.
@@ -524,7 +526,7 @@ class LinkedList<T: Equatable> {
 ```
 
 **Insert**<br>
-<img width="529" alt="Снимок экрана 2023-10-24 в 20 49 21" src="https://github.com/kdyrovadd/test/assets/103488736/19fd3ee0-dc86-4ff7-b0de-8efc20b192e3">
+![Linked List](/Figures/Algorithms&DS/figure14.png)
 
 Now that we have set up our Node Class and LinkedList Class, we will now insert a node. This function goes inside our LinkedList Class. Our strategy will be inserting the node at the end of the linked list. We will use these steps to check our insertion:
 * Check if the head has an value, if it doesn’t, then the value we insert is the head
@@ -549,7 +551,7 @@ func insert(value: T) {
 ```
 
 **Remove**<br>
-<img width="309" alt="Снимок экрана 2023-10-24 в 20 51 04" src="https://github.com/kdyrovadd/test/assets/103488736/c5bc4044-ad91-4930-8890-3259d09fe3eb">
+![Linked List1](/Figures/Algorithms&DS/figure15.png)
 
 For removal, we have to remove the Node. Create a function that takes in a value to be removed. This function goes inside our LinkedList Class. The steps will be:
 * Check if the value to be removed is at the head.
