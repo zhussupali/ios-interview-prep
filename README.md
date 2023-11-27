@@ -18,7 +18,7 @@
     - [Development Methodologies](#development-methodologies)
 2. [Languages](#languages)
     - [Objective-C](#objective-c)
-    - [Swift](#swift)
+    - [Swift](Contents/Languages/Swift.md)
 3. [SDK](#sdk)
     - [UI Development](#ui-development)
     - [Data Persistence](#data-persistence)

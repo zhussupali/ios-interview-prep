@@ -1,5 +1,4 @@
 ## Table of contents
-* [Swift: Advantages & Disadvantages]()
 * [Closures](#closures)
 * [Enumerations](#enumerations)
 * [Classes vs Structs](#classes-vs-structs)
@@ -68,7 +67,7 @@ Structures and classes in Swift have many things in common. Both can:
 * Be extended to expand their functionality beyond a default implementation
 * Conform to protocols to provide standard functionality of a certain kind
 
-#### Differences:
+##### Differences:
 | Class  | Struct |
 | ------------- | ------------- |
 | reference type(stored on the heap)  | value type(stored on the stack) |
@@ -77,7 +76,7 @@ Structures and classes in Swift have many things in common. Both can:
 | can be deinitialized | no need of deinitializers  |
 | don't have initializers by default | have initializers by default  |
 
-### Structures and Enumerations Are Value Types
+#### Structures and Enumerations Are Value Types
 
 A _value_ type is a type whose value is copied when it’s assigned to a variable or constant, or when it’s passed to a function.
 
@@ -85,13 +84,13 @@ In fact, all of the basic types in Swift — integers, floating-point numbers, B
 
 All structures and enumerations are value types in Swift. This means that any structure and enumeration instances you create — and any value types they have as properties — are always copied when they’re passed around in your code.
 
-### Classes Are Reference Types
+#### Classes Are Reference Types
 
 Unlike _value_ types, _reference_ types are not copied when they’re assigned to a variable or constant, or when they’re passed to a function. Rather than a copy, a reference to the same existing instance is used.
 
 Variables of a _reference_ type point to the same data; therefore, operations on one variable will affect the data specified by another variable.
 
-### Identity Operators
+#### Identity Operators
 
 Because classes are _reference_ types, it’s possible for multiple constants and variables to refer to the same single instance of a class behind the scenes. (The same isn’t true for structures and enumerations, because they’re always copied when they’re assigned to a constant or variable, or passed to a function.)
 It can sometimes be useful to find out whether two constants or variables refer to exactly the same instance of a class. To enable this, Swift provides two identity operators:
